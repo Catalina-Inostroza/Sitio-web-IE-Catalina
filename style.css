@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #D5A6E5, #F8C8D8);
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #4A0044;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.5em;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #E6007E;
+    margin-top: 10px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    text-align: center; /* Centrar texto en la sección de contenido */
+}
+
+.small-button {
+    background-color: #FF6F91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Tamaño más pequeño */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    font-size: 1em; /* Tamaño de fuente del botón */
+    margin-top: 15px; /* Margen superior */
+}
+
+.small-button:hover {
+    background-color: #FF4C81;
+}
+
+.proyectos {
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-item {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.heart {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #E6007E;
+    transition: color 0.3s;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C7007F;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: #4A0044;
+}
